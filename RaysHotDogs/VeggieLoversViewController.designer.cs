@@ -11,11 +11,11 @@ using UIKit;
 
 namespace RaysHotDogs
 {
-	[Register ("VeggieLoversViewController")]
-	partial class VeggieLoversViewController
-	{
-		void ReleaseDesignerOutlets ()
-		{
-		}
-	}
+    [Register ("VeggieLoversViewController")]
+    partial class VeggieLoversViewController
+    {
+        void ReleaseDesignerOutlets ()
+        {
+        }
+    }
 }

@@ -11,11 +11,11 @@ using UIKit;
 
 namespace RaysHotDogs
 {
-	[Register ("HotDogTableViewController")]
-	public partial class HotDogTableViewController
-	{
-		void ReleaseDesignerOutlets ()
-		{
-		}
-	}
+    [Register ("HotDogTableViewController")]
+    partial class HotDogTableViewController
+    {
+        void ReleaseDesignerOutlets ()
+        {
+        }
+    }
 }

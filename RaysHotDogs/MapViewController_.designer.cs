@@ -14,16 +14,8 @@ namespace RaysHotDogs
     [Register ("MapViewController")]
     partial class MapViewController
     {
-        [Outlet]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        MapKit.MKMapView rayMap { get; set; }
-
         void ReleaseDesignerOutlets ()
         {
-            if (rayMap != null) {
-                rayMap.Dispose ();
-                rayMap = null;
-            }
         }
     }
 }

@@ -24,7 +24,7 @@ namespace RaysHotDogs
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-		UIKit.UIView TakePicInnerViewController { get; set; }
+        UIKit.UIView TakePicViewController { get; set; }
 
         void ReleaseDesignerOutlets ()
         {
@@ -38,9 +38,9 @@ namespace RaysHotDogs
                 ivPictureImage = null;
             }
 
-            if (TakePicInnerViewController != null) {
-                TakePicInnerViewController.Dispose ();
-                TakePicInnerViewController = null;
+            if (TakePicViewController != null) {
+                TakePicViewController.Dispose ();
+                TakePicViewController = null;
             }
         }
     }

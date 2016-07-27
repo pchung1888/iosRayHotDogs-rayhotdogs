@@ -5,17 +5,26 @@
 // Manual changes to this file will not be maintained.
 //
 using Foundation;
+using Social;
 using System;
 using System.CodeDom.Compiler;
 using UIKit;
 
 namespace RaysHotDogs
 {
-    [Register ("MeatLoversViewController")]
-    partial class MeatLoversViewController
+    [Register ("page3controller")]
+    partial class page3controller
     {
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton PostToFacebook { get; set; }
+
         void ReleaseDesignerOutlets ()
         {
+            if (PostToFacebook != null) {
+                PostToFacebook.Dispose ();
+                PostToFacebook = null;
+            }
         }
     }
 }

@@ -69,7 +69,7 @@
     <MtouchUseRefCounting>true</MtouchUseRefCounting>
     <MtouchDebug>true</MtouchDebug>
     <DeviceSpecificBuild>true</DeviceSpecificBuild>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>iPhone Developer: dna1888@gmail.com (F9X9RXZ2DU)</CodesignKey>
     <MtouchUseSGen>true</MtouchUseSGen>
   </PropertyGroup>
   <ItemGroup>
@@ -138,14 +138,6 @@
     <Compile Include="HotDogDetail2ViewController.designer.cs">
       <DependentUpon>HotDogDetail2ViewController.cs</DependentUpon>
     </Compile>
-    <Compile Include="TakePicViewController.cs" />
-    <Compile Include="TakePicViewController.designer.cs">
-      <DependentUpon>TakePicViewController.cs</DependentUpon>
-    </Compile>
-    <Compile Include="MapViewController_.cs" />
-    <Compile Include="MapViewController_.designer.cs">
-      <DependentUpon>MapViewController_.cs</DependentUpon>
-    </Compile>
     <Compile Include="page1controller.cs" />
     <Compile Include="page1controller.designer.cs">
       <DependentUpon>page1controller.cs</DependentUpon>
@@ -153,6 +145,10 @@
     <Compile Include="page2controller.cs" />
     <Compile Include="page2controller.designer.cs">
       <DependentUpon>page2controller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="page3controller.cs" />
+    <Compile Include="page3controller.designer.cs">
+      <DependentUpon>page3controller.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
